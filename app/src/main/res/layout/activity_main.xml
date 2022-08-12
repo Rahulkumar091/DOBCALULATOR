@@ -18,13 +18,13 @@
         android:text="CALCULATE YOUR"
         android:textStyle="bold"
         android:textColor="#0A0A0A"
-        android:textSize="30sp" />
+        android:textSize="40sp" />
 
     <TextView
         android:id="@+id/txtView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="30dp"
         android:text="AGE"
         android:textStyle="bold"
         android:padding="10dp"
@@ -36,19 +36,64 @@
         android:id="@+id/txtView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="20dp"
         android:text="IN MINUTES"
         android:textColor="#0A0A0A"
         android:textStyle="bold"
-        android:textSize="30sp" />
+        android:textSize="35sp" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dp"
-        android:text="Button"
+        android:layout_margin="20dp"
+        android:text="Select Date"
         android:textColor="@color/black"
+        android:textSize="30dp" />
+
+    <TextView
+        android:id="@+id/txtSelectedDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:text="31.5.2000"
+        android:textColor="#0A0A0A"
+        android:textStyle="bold"
         android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/txtView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="Selected Date"
+        android:textColor="#5707E4"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:padding="10sp"
+        android:background="#5707E4"
+        android:text="140000"
+        android:textColor="#0A0A0A"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Selected Date"
+        android:textColor="#2D0377"
+        android:textSize="20sp"
+        android:textStyle="italic|bold" />
+
+
 
 </LinearLayout>
