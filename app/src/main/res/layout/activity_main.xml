@@ -4,33 +4,33 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#4CAF50"
-    tools:context=".MainActivity"
+    android:background="#8A16F9D3"
     android:gravity="center_horizontal"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="16dp"
+    tools:context=".MainActivity">
 
     <TextView
         android:id="@+id/txtView1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="CALCULATE YOUR"
-        android:textStyle="bold"
+        android:text="CALCULATE"
         android:textColor="#0A0A0A"
-        android:textSize="40sp" />
+        android:textSize="40sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="AGE"
-        android:textStyle="bold"
-        android:padding="10dp"
         android:background="@color/black"
+        android:padding="10dp"
+        android:text="AGE"
         android:textColor="@color/white"
-        android:textSize="30sp" />
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtView3"
@@ -39,49 +39,54 @@
         android:layout_marginTop="20dp"
         android:text="IN MINUTES"
         android:textColor="#0A0A0A"
-        android:textStyle="bold"
-        android:textSize="35sp" />
+        android:textSize="35sp"
+        android:textStyle="bold" />
 
     <Button
         android:id="@+id/btnDatePicker"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:padding="10dp"
         android:layout_margin="20dp"
+        android:foregroundGravity="bottom"
+        android:padding="10dp"
         android:text="Select Date"
         android:textColor="@color/black"
-        android:textSize="30dp" />
+        android:textSize="20dp"
+        android:textStyle="italic|bold" />
 
     <TextView
         android:id="@+id/txtSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="1dp"
-        android:text="31.5.2000"
-        android:textColor="#0A0A0A"
-        android:textStyle="bold"
-        android:textSize="20dp" />
+        android:background="#0A0A0A"
+        android:padding="10dp"
+        android:text="DD.MM.YYYY"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        android:textStyle="bold" />
 
     <TextView
         android:id="@+id/txtView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
 
-        android:text="Selected Date"
+        android:padding="10dp"
+        android:text="Date of birth"
         android:textColor="#5707E4"
         android:textSize="20sp"
         android:textStyle="bold|italic" />
 
     <TextView
-        android:id="@+id/txtView6"
+        android:id="@+id/txtAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:padding="10sp"
-        android:background="#5707E4"
-        android:text="140000"
-        android:textColor="#0A0A0A"
-        android:textSize="30sp"
+        android:background="#0A0A0A"
+        android:padding="5sp"
+        android:text="0000000"
+        android:textColor="@color/white"
+        android:textSize="20sp"
         android:textStyle="bold" />
 
     <TextView
@@ -89,11 +94,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="10dp"
-        android:text="Selected Date"
-        android:textColor="#2D0377"
-        android:textSize="20sp"
+        android:padding="10dp"
+        android:text="Age in minutes"
+        android:textColor="#5707E4"
+        android:textSize="20dp"
         android:textStyle="italic|bold" />
-
 
 
 </LinearLayout>
